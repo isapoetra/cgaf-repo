@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+	fetch="git://github.com/isapoetra/"
+	/>
+	<default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+  <project name="cgaf.git" remote="github" path="web"/>
+</manifest>
+
