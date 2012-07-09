@@ -6,6 +6,8 @@
 	<default revision="refs/heads/master"
            remote="github"
            sync-j="4" />
-  <project name="cgaf.git" remote="github" path="web"/>
+  <project name="cgaf.git" path="web"/>
+  <project name="cgaf-shared.git" path="shared"/>
+  <project name="cgaf-applications.git" path="applications"/>
 </manifest>
 
